@@ -1,0 +1,185 @@
+.sahara{
+  background-image: url(./shara\ desert.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+}
+.logo{
+  background-image: url(./logo.png);
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  top: 50px;
+  left: 120px;
+  z-index: 1;
+}
+.text1{
+  font-size: small;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  word-spacing: 60px;
+  left: 70%;
+  top: 50px;
+  cursor: pointer;
+}
+.menu{
+  background-image: url(./menu.png);
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  z-index: 1;
+  left: 90%;
+  top: 35px;cursor: pointer;
+}
+.text2{
+  color: white;
+  font-size: 90px;
+  position: absolute;
+  z-index: 1;
+  left: 120px;
+  top: 230px;
+}
+.text3{
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  z-index: 1;
+  left: 120px;
+  top: 330px;
+}
+.button{
+  background-color: white;
+  border-radius: 20px;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.image1{
+  background-image: url(./pic1.png);
+  z-index: 1;
+  position: absolute;
+  left: 60%;
+  top: 100px;
+  height: 270px;
+  width: 200px;
+  border-radius: 15px;
+  transition:  transform 1s;
+}
+.image1:hover{
+  transform: scale(1.1);
+}
+.image2{
+  background-image: url(./pic2.png);
+  z-index: 1;
+  position: absolute;
+  left: 77%;
+  top: 100px;
+  height: 270px;
+  width: 200px;
+  border-radius: 15px;
+  transition:  transform 1s;
+}
+.image2:hover{
+  transform: scale(1.1);
+}
+.image3{
+  background-image: url(./pic3.png);
+  z-index: 1;
+  position: absolute;
+  left: 60%;
+  top: 400px;
+  height: 270px;
+  width: 200px;
+  border-radius: 15px;
+  transition:  transform 1s;
+}
+.image3:hover{
+  transform: scale(1.1);
+}
+.image4{
+  background-image: url(./pic4.png);
+  z-index: 1;
+  position: absolute;
+  left: 77%;
+  top: 400px;
+  height: 270px;
+  width: 200px;
+  border-radius: 15px;
+  transition:  transform 1s;
+}
+.image4:hover{
+  transform: scale(1.1);
+}
+.btext1{
+  color: white;
+  margin-left: 10px;
+}
+.btext2{
+  color: white;
+  margin-left: 10px;
+}
+.btext3{
+  color: white;
+  margin-left: 10px;
+}
+.btext4{
+  color: white;
+  margin-left: 10px;
+}
+@media screen and (max-width:856px) {
+  .sahara{
+    margin:0;
+    font-size: 2.5rem;
+    display: block;
+  }
+  .text1{
+    left: 55%;
+  }
+  .image1{
+    top: 80%;
+    left: 30%;
+    width: 50%;
+    background-size: cover;
+  }
+  .image2{
+    top: 130%;
+    left: 30%;
+    width: 50%;
+    background-size: cover;
+  }
+  .image3{
+    top: 180%;
+    left: 30%;
+    width: 50%;
+    background-size: cover;
+  }
+  .image4{
+    top: 230%;
+    left: 30%;
+    width: 50%;
+    background-size: cover;
+  }
+  .last{
+    background-image: url(./shara\ desert.jpg);
+    width: 100%;
+    height: 100vh;
+  }
+  .last1{
+    background-image: url(./shara\ desert.jpg);
+    width: 100%;
+    height: 100vh;
+  }
+}
